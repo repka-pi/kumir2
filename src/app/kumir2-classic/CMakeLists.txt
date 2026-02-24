@@ -12,6 +12,6 @@ kumir2_add_launcher(
 	X_NAME          "Kumir Standard Edition"
 	X_NAME_ru       "Кумир"
 	X_CATEGORIES    "Education,X-KDE-Edu-Misc"
+	X_EXEC          "env QT_QPA_PLATFORM=xcb kumir2-classic %U"
 	CONFIGURATION   "CourseManager,Editor,Actor*,KumirAnalizer\(preload=Files\),*CodeGenerator,KumirCodeRun,!CoreGUI\(notabs,nostartpage,nosessions\)"
 )
-
